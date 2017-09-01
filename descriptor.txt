@@ -1,0 +1,17 @@
+O objetivo deste projeto é construir uma aplicação GEM para ruby que 
+permita execução de comandos, por meio de webservice, com plataforma 
+OTRS. 
+
+a linguagem de comando deve ser o mais próximo da humana possível, como:
+
+\ler ticket:1085545
+\mover ticket:1084500 \para fila:15 \com assunto:"Para análse" \e 
+texto:"Encaminhamento para análise."
+
+\fechar ticket:1080565
+
+a linguagem deve admitir abreviações:
+
+\l t:1054954 -> \ler ticket:1054954
+
+
